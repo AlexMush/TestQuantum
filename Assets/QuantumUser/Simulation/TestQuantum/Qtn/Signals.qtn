@@ -1,0 +1,2 @@
+signal ChangeLevel(int levelsCount);
+signal ResetPlayerPosition(EntityRef playerEntity, PlayerLink* playerLink);

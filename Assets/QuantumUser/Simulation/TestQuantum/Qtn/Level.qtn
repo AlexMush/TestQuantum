@@ -1,0 +1,6 @@
+component Level
+{
+	int CurrentLevel;
+}
+
+component FinishTrigger { }

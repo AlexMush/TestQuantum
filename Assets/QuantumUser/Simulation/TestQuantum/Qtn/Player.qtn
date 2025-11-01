@@ -1,0 +1,6 @@
+#pragma max_players 2
+
+component PlayerLink
+{
+	PlayerRef PlayerRef;
+}

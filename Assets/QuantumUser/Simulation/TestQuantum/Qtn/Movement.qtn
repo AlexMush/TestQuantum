@@ -1,0 +1,8 @@
+component Movement
+{
+	FP RotationSpeed;
+	FP JumpForce;
+	FP PushForce;
+	[ExcludeFromPrototype]
+	bool IsJumping;
+}

@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1722638350, guid: b156eeaae3f741b40af66649a4748430, type: 3}
+  m_Name: QuantumMap
+  m_EditorClassIdentifier: Quantum.Engine.dll::Quantum.Map
+  Identifier:
+    Path: QuantumUser/Resources/Default/QuantumMap
+    Guid:
+      Value: 341775989202430117
+  UserAsset:
+    Id:
+      Value: 0
+  Scene: GameSceneLevel1
+  ScenePath: Assets/Scenes/GameSceneLevel1.unity
+  SceneGuid: 67ed4a83bb58fc44192456f6920ea96d
+  WorldSize: 256
+  BucketsCount: 16
+  BucketsSubdivisions: 8
+  BucketingAxis: 0
+  SortingAxis: 1
+  SceneMeshCellSize:
+    RawValue: 262144
+  TriangleMeshCellSize: -1
+  StaticColliders3DTrianglesData:
+    Id:
+      Value: 334971258589874052
+  SerializeTrianglesMetadata: 0
+  GridSizeX: 64
+  GridSizeY: 64
+  GridNodeSize: 4
+  NavMeshLinks: []
+  Regions: []
+  StaticColliders2D: []
+  StaticColliders3D:
+  - Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: 0
+      W:
+        RawValue: 65536
+    Position:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: -6554
+      Z:
+        RawValue: 0
+    PhysicsMaterial:
+      Id:
+        Value: 0
+    ShapeType: 2
+    SphereRadius:
+      RawValue: 0
+    CapsuleRadius:
+      RawValue: 0
+    CapsuleHeight:
+      RawValue: 0
+    BoxExtents:
+      X:
+        RawValue: 524288
+      Y:
+        RawValue: 6554
+      Z:
+        RawValue: 245760
+    SmoothSphereMeshCollisions: 0
+    StaticData:
+      Name: GroundCollider
+      Tag: Untagged
+      Layer: 0
+      Asset:
+        Id:
+          Value: 0
+      IsTrigger: 0
+      ColliderIndex: 0
+      MutableMode: 0
+  - Rotation:
+      X:
+        RawValue: -28922
+      Y:
+        RawValue: -36207
+      Z:
+        RawValue: -36207
+      W:
+        RawValue: 28922
+    Position:
+      X:
+        RawValue: 207093
+      Y:
+        RawValue: 65469
+      Z:
+        RawValue: 113377
+    PhysicsMaterial:
+      Id:
+        Value: 0
+    ShapeType: 2
+    SphereRadius:
+      RawValue: 0
+    CapsuleRadius:
+      RawValue: 0
+    CapsuleHeight:
+      RawValue: 0
+    BoxExtents:
+      X:
+        RawValue: 114270
+      Y:
+        RawValue: 81943
+      Z:
+        RawValue: 65629
+    SmoothSphereMeshCollisions: 0
+    StaticData:
+      Name: Box_350x250x200_Prefab
+      Tag: Untagged
+      Layer: 0
+      Asset:
+        Id:
+          Value: 0
+      IsTrigger: 0
+      ColliderIndex: 1
+      MutableMode: 0
+  - Rotation:
+      X:
+        RawValue: -40380
+      Y:
+        RawValue: 22735
+      Z:
+        RawValue: 22735
+      W:
+        RawValue: 40380
+    Position:
+      X:
+        RawValue: -167116
+      Y:
+        RawValue: 98304
+      Z:
+        RawValue: -103546
+    PhysicsMaterial:
+      Id:
+        Value: 0
+    ShapeType: 2
+    SphereRadius:
+      RawValue: 0
+    CapsuleRadius:
+      RawValue: 0
+    CapsuleHeight:
+      RawValue: 0
+    BoxExtents:
+      X:
+        RawValue: 114688
+      Y:
+        RawValue: 81920
+      Z:
+        RawValue: 98304
+    SmoothSphereMeshCollisions: 0
+    StaticData:
+      Name: Box_350x250x300_Prefab
+      Tag: Untagged
+      Layer: 0
+      Asset:
+        Id:
+          Value: 0
+      IsTrigger: 0
+      ColliderIndex: 2
+      MutableMode: 0
+  - Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 46340
+      Z:
+        RawValue: 46340
+      W:
+        RawValue: 0
+    Position:
+      X:
+        RawValue: -702545
+      Y:
+        RawValue: -8586
+      Z:
+        RawValue: 16383
+    PhysicsMaterial:
+      Id:
+        Value: 0
+    ShapeType: 2
+    SphereRadius:
+      RawValue: 0
+    CapsuleRadius:
+      RawValue: 0
+    CapsuleHeight:
+      RawValue: 0
+    BoxExtents:
+      X:
+        RawValue: 114270
+      Y:
+        RawValue: 81943
+      Z:
+        RawValue: 65629
+    SmoothSphereMeshCollisions: 0
+    StaticData:
+      Name: Box_350x250x200_Prefab
+      Tag: Untagged
+      Layer: 0
+      Asset:
+        Id:
+          Value: 0
+      IsTrigger: 0
+      ColliderIndex: 3
+      MutableMode: 0
+  MapEntities: []
+  SerializedTriangleDataUncompressedSize: 8
+  references:
+    version: 2
+    RefIds: []
